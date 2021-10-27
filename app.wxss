@@ -1,0 +1,13 @@
+/**app.wxss**/
+@import "./style/icon.wxss";
+page,view,text,swiper,swiper-item,image,navigator{
+    padding: 0rpx;
+    margin: 0rpx;
+    box-sizing: border-box;
+}
+page{
+    font-size: 28rpx;
+}
+image{
+    width: 100%;
+}

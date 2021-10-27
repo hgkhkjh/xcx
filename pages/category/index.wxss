@@ -1,0 +1,74 @@
+/* pages/category/index.wxss */
+page{
+    height: 100%;
+}
+.cates{
+ height: 100%;
+}
+.catescontainer{
+    height:calc(100vh - 80rpx);
+    display: flex;
+}
+.leftnav{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap
+
+}
+.lefttext{
+    padding:10rpx 20rpx;
+    color: gray;
+    margin: 30rpx 10rpx;
+}
+.rightcontent{
+flex: 5;
+display: flex;
+}
+.rightcontent_title{
+    color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50rpx;
+    margin-bottom:-30rpx ;
+}
+
+.rights{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.rightcontent{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    
+    
+}
+
+.rightcontent_content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.rightcon_nav{
+    width:130rpx;
+    text-align: center;
+    display: flex;
+    margin: 50rpx;
+    flex-direction: column;
+    align-items: center;
+}
+.active{
+    color: #00BFFF;
+    border-left: 5rpx solid #00BFFF;
+}
+.goodsname{
+    display: inline-block;
+    margin-top: 20rpx;
+    font-size: 25rpx;
+    color: dimgray;
+}

@@ -1,0 +1,71 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "分类",
+          "pathName": "pages/category/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商品列表",
+          "pathName": "pages/goods_list/index",
+          "query": "cid=5",
+          "scene": null
+        },
+        {
+          "name": "商品详情",
+          "pathName": "pages/goods_list/index",
+          "query": "cid=189",
+          "scene": null
+        },
+        {
+          "name": "商品详情是",
+          "pathName": "pages/goods_detail/index",
+          "query": "goods_id=57444",
+          "scene": null
+        },
+        {
+          "name": "购物车",
+          "pathName": "pages/cart/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "收藏",
+          "pathName": "pages/collect/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "搜索",
+          "pathName": "pages/search/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "反馈",
+          "pathName": "pages/feedback/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

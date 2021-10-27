@@ -1,0 +1,42 @@
+<search></search>
+<!-- 轮播图 -->
+<swiper class="swiper" indicator-dots autoplay interval="3000" circular indicator-active-color="#00BFFF">
+    <swiper-item wx:for="{{swiperlist}}" class="swiperitem" wx:key="goods_id">
+        <navigator open-type="navigate" url="/pages/goods_detail/index?goods_id={{item.goods_id}}">
+            <image mode="widthFix" src="{{item.image_src}}" class="swiperimg"></image>
+        </navigator>
+    </swiper-item>
+</swiper>
+<!-- 导航栏 -->
+<view class="nav">
+    <navigator wx:for="{{navlist}}" wx:key="name" class="nava" url="/pages/category/index" open-type="switchTab">
+        <image mode="widthFix" src="{{item.image_src}}" class="navimg"></image>
+    </navigator>
+</view>
+<!-- //楼层 -->
+<view class="index_floor">
+  <view class="floor_group"
+  wx:for="{{floorlist}}"
+  wx:for-item="item1"
+  wx:for-index="index1"
+  wx:key="floor_title"
+  >
+    <view class="floor_title">
+      <image mode="widthFix" src="{{item1.floor_title.image_src}}" />
+    </view>
+
+    <view class="floor_list">
+      <navigator 
+      wx:for="{{item1.product_list}}"
+      wx:for-item="item2"
+      wx:for-index="index2"
+      wx:key="name"
+     url="/pages/goods_list/index?query=风衣"
+      >
+      <image mode="{{index2===0?'widthFix':'source'}}" src="{{item2.image_src}}" />
+      </navigator>
+    </view>
+    </view>
+  </view>
+  
+  
